@@ -44,7 +44,7 @@ Leveraging the backend's vector search capabilities, the CLI allows users to que
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -64,7 +64,7 @@ Once installed, the `insighta` command will be available globally.
 
 ---
 
-## 🛠️ Usage Guide
+## Usage Guide
 
 ### Session Management
 | Command | Description |
@@ -97,7 +97,7 @@ Once installed, the `insighta` command will be available globally.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 - **Credentials**: Stored at `~/.insighta/credentials.json`.
 - **Environment Variables**:
@@ -106,11 +106,8 @@ Once installed, the `insighta` command will be available globally.
 
 ---
 
-## ⚖️ Engineering Standards
+## Engineering Standards
 - **Conventional Commits**: All changes follow the `feat:`, `fix:`, `chore:` convention.
 - **API Versioning**: All requests include the `X-API-Version: 1` header for consistency.
 - **Async-First**: All network I/O is asynchronous to prevent terminal blocking.
 
----
-
-*Built with ❤️ by the Insighta Labs Team.*
