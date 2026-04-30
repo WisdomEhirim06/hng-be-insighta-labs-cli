@@ -1,0 +1,5 @@
+typer[all]
+click==8.1.7
+rich
+httpx
+python-dotenv
