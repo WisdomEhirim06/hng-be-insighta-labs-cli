@@ -132,7 +132,7 @@ def create_profile(name: str = typer.Option(..., "--name", help="Name of the per
         progress.add_task(description=f"Creating profile for {name}...", total=None)
         resp = run_async(api_client.create_profile(name))
     
-    if resp.status_code == 200:
+    if resp.status_code in (200, 201):
         console.print(f"[green]Profile created successfully![/green]")
         console.print(resp.json()["data"])
     else:
